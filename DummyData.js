@@ -4,7 +4,14 @@ const UserList = [
         name: 'Adam Scott',
         username: 'adam',
         age: 20,
-        nationality:'Canada'
+        nationality:'Canada',
+        friends: [{
+            id: 2,
+            name: 'Pedro Scott',
+            username: 'Pedro',
+            age: 30,
+            nationality:'Brazil'
+        }]
     },
     {
         id: 2,
@@ -18,7 +25,22 @@ const UserList = [
         name: 'Oscar Scott',
         username: 'oscar',
         age: 40,
-        nationality:'Germany'
+        nationality:'Germany',
+        friends: [{
+            id: 5,
+            name: 'Silver Scott',
+            username: 'silver',
+            age: 60,
+            nationality:'Nigeria'
+        },
+        {
+            id: 4,
+            name: 'Mount Scott',
+            username: 'mount',
+            age: 50,
+            nationality:'England'
+        }
+    ]
     },
     {
         id: 4,

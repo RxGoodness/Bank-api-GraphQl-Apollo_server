@@ -7,6 +7,7 @@ type User {
   username: String!
   age: Int!
   nationality: Nationality!
+  friends: [User]
 }
     type Query {
     users: [User!]!
