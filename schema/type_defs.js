@@ -9,9 +9,19 @@ type User {
   nationality: Nationality!
   friends: [User]
 }
+
+type Movie {
+ id: ID!
+ name:String!
+ yearOfPublication: Int!
+ isInTheaters: Boolean!
+}
+
     type Query {
     users: [User!]!
-    user(id:ID!): User!
+    user(id: ID!): User!
+    movies: [Movie!]!
+    movie(name:String!): Movie
     }
 
 enum Nationality {
@@ -21,6 +31,5 @@ England
 Brazil
 Nigeria
 }
-
    `;    
 export default typeDefs;
