@@ -32,7 +32,7 @@ const UserList = [
         name: 'Silver Scott',
         username: 'silver',
         age: 60,
-        nationality:'nigeria'
+        nationality:'Nigeria'
     }
 ];
 export default UserList

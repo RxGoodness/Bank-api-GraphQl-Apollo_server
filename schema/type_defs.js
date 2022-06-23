@@ -6,10 +6,19 @@ type User {
   name: String!
   username: String!
   age: Int!
-  nationality: String!
+  nationality: Nationality!
 }
     type Query {
     users: [User!]!
     }
+
+enum Nationality {
+Canada
+Germany
+England
+Brazil
+Nigeria
+}
+
    `;    
 export default typeDefs;
